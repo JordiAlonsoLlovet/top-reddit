@@ -38,7 +38,7 @@ else:
 def start_handler(bot, update):
     # Creating a handler-function for /start command 
     logger.info("User {} started bot".format(update.effective_user["id"]))
-    update.message.reply_text("Welcome to TopRedditBot! This bot allows you to find today's top post for your favourite subreddits\nPress Type /reddit <subreddit> to get ")
+    update.message.reply_text("Welcome to TopRedditBot! This bot allows you to find today's top post for your favourite subreddits\nPress Type /reddit <subreddit> to get a Top Post")
 
 
 def reddit_handler(bot, update):
